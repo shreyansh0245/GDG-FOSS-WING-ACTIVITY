@@ -60,3 +60,8 @@ This is the most important part! You will now combine your branches using differ
     Once all files are in your `main` branch, push your final `main` branch to your repository. Then, go to GitHub and create a **Pull Request** to submit your work for review. **The title of your Pull Request should be your roll number**.
 
 **Have fun, and don't hesitate to ask us questions if you get stuck!**
+***
+
+#### **Bonus Challenge**
+
+You think it's too easy for you? We made some unnecessary commits in updating this README. Can you squash those commits into one? And if you perform this part too, then the title of your PR should be your roll number with a **-i** like, **"LCB20250AB -i"**.
