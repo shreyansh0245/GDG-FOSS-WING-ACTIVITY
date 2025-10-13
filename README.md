@@ -1,8 +1,6 @@
-### **Welcome to Your First Git Assignment!**
+### **GDG FOSS Wing Activity**
 
-Hello everyone! This is your first step into the world of Git and version control. Don't worry, we're going to keep it simple and fun. By the end of this assignment, you'll have a small personal project hosted on your very own Git repository!
-
-**Goal:** Create a simple webpage with separate HTML and CSS files and combine them using both a **merge** and a **rebase**.
+**Goal:** Create a simple webpage with separate HTML, CSS and JS files and combine them using both **merge** and **rebase** operations as mentioned.
 
 ***
 
@@ -10,52 +8,55 @@ Hello everyone! This is your first step into the world of Git and version contro
 
 1.  **Fork this Repository**
    
-    Click the **"Fork"** button at the top-right of this page. This creates your own personal copy of this repository that you can edit.
+    I think you all know how to do this.
 
 2.  **Clone Your Fork**
    
-    Go to **your** newly forked repository. Click the green **"Code"** button to copy the URL, and then use your terminal to clone it to your computer.
+    Clone your fork to your local machine.
 
 4.  **Create Your HTML Branch**
    
-    Now, let's start building! Create and switch to a new branch for your HTML file. **Be sure to use your roll number in the branch name.** Then, create a file named `index.html` inside your project folder and add some simple HTML code. Save and close the file.
+    Now, let's start building! Create and switch to a new branch for your HTML file. **Be sure to include your roll number in the branch name.** Then, create a file named `index.html` inside your project folder and add some simple HTML code. 
 
-5.  **Commit and Push Your HTML**
+5.  **Commit Your HTML**
    
-    Now, let's save your work. Stage the `index.html` file, **commit it with a message that includes your roll number**, and push it up to your repository.
+    Stage the `index.html` file, **commit it with a message that includes your roll number** like, "LCS20250AB: {commit message}".
 
 6.  **Create Your CSS Branch**
     
-    Time for the second part! Switch back to the `main` branch, then create and switch to a new branch for your CSS file. Create a new file named `style.css` in the same folder. Add some simple CSS to change the text color or font, and don't forget to link this CSS file in your `index.html`!
+    Switch back to the `main` branch, then create and switch to a new branch for your CSS file. Create a new file named `style.css` in the same folder. Add some simple CSS to change the text color or font, and don't forget to link this CSS file to your `index.html`!
 
-7.  **Commit and Push Your CSS**
+7.  **Commit Your CSS**
    
-    Just like before, save your CSS work and also **include your roll number as the commit message**, and push it to your repository.
+    Just like before, save your CSS work, **include your roll number in the commit message**, and push it to your repository.
 
+8.  **Create JS file**
+
+    Same as what you did for the HTML and CSS files.
 ***
 
 #### **Bringing It All Together!**
 
-This is the most important part! You will now combine your branches using two different methods.
+This is the most important part! You will now combine your branches using different methods.
 
 1.  **Merge the HTML Branch**
    
-    First, switch to your `main` branch and then merge your HTML branch into it. This will bring your `index.html` file into the `main` branch and keep a record of the merge.
+    First, switch to your `main` branch and then merge your `HTML` branch into it. This will bring your `index.html` file into the `main` branch and keep a record of the merge.
 
 2.  **Rebase the CSS Branch**
    
-    Now, switch to your CSS branch. Rebase it onto the `main` branch. This will "move" your CSS commit to the end of the `main` branch's history, creating a cleaner timeline.
+    Rebase your `CSS` branch onto the `main` branch.
 
-3.  **Merge the Rebased Branch**
-   
-    Finally, switch back to your `main` branch and merge your now rebased CSS branch into it. This will be a **simple "fast-forward" merge**, bringing your CSS file into your `main` branch.
+3.  **Merge the JS Branch**
 
-4.  **Final Push and Pull Request**
-   
-    Once both files are in your `main` branch, push your final `main` branch to your repository. Then, go to GitHub and create a **Pull Request** to submit your work for review.
+    Finally, merge your now rebased `main` branch into the `JS` branch.
 
-5.  **Attach Your Git Graph**
+4.  **Attach Your Git Graph**
    
-    To show us your work, please take a clear screenshot of your Git graph. You can view this using a visual Git tool or by running the graph command in your terminal. Attach this image to your Pull Request.
+    To show us your work, please take a clear screenshot of your **Git graph**. Attach this image to your Pull Request.
+
+5.  **Final Push and Pull Request**
+
+    Once all files are in your `main` branch, push your final `main` branch to your repository. Then, go to GitHub and create a **Pull Request** to submit your work for review. **The title of your Pull Request should be your roll number**.
 
 **Have fun, and don't hesitate to ask us questions if you get stuck!**
